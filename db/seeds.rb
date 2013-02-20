@@ -13,7 +13,7 @@ Actor.create(:name => 'Grace', :likes => 'country', :status  => 'Buyer', :id => 
 Actor.create(:name => 'Alan', :likes => 'pop', :status  => 'Buyer', :id => 4)
 Actor.create(:name => 'Dawei', :likes => 'metal', :status  => 'Buyer', :id => 5)
 Song.create(:title => 'Stairway to Heaven', :artist => 'Led Zep', :time  => 4, :in_album => 'Led Zep IV', :actor_id => 1)
-Song.create(:title => 'Holiday', :artist => 'Sex Pistols', :time  => 2, :in_album => 'God Save...', :actor_id => 2)
+Song.create(:title => 'Holiday', :artist => 'Michael S', :time  => 2, :in_album => 'God Save...', :actor_id => 2)
 Song.create(:title => 'Holiday Season', :artist => 'Alicia Keys', :time  => 2, :in_album => 'Christmas', :actor_id => 2)
 Song.create(:title => 'Finals', :artist => 'Mary Byrne', :time  => 2, :in_album => 'X Factor', :actor_id => 3)
 Song.create(:title => 'Mayflower', :artist => 'Matt Cardle', :time  => 2, :in_album => 'X Factor', :actor_id => 4)

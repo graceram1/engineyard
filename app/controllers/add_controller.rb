@@ -1,9 +1,11 @@
 class AddController < ApplicationController
 layout "standard"
  def song
-	if params[:artist]
-	then @song = Song.create(:artist => params[:artist], :title => params[:title], 
-			:time => params[:length], :in_album => params[:album]) end
+	#if params[:artist]
+	#then 
+	@song = Song.create(:artist => params[:artist], :title => params[:title], 
+			:time => params[:length], :in_album => params[:album]) 
+			#end
   end
 
 end

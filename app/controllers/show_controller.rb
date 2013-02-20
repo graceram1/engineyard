@@ -39,7 +39,7 @@ end
 	if !@name.blank?
 	then @album_songs = Song.find(:all, :conditions => {:in_album => @name})
          @album_time = (@album_songs.collect {|song| song.time}).sum 
-	else @album_songs = [] end
+	else @album_songs = Song.find(:all) end
   end
   
   def actor

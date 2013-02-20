@@ -16,8 +16,9 @@
     <p> "<%=h params[:buyer] %>", I am afraid that you are not in my database.  </p> 
     <% elsif @song1.nil? then %>
     <p> I am afraid I do not have this song: "<%=h params[:song] %>". </p> 
-    <% end %>
+    
 
 "<%=h params[:buyer] %>"
 <%= link_to  'View all your songs', :controller => "buy", :action => "find" , :id =>@actor.id, :owner =>@actor.name%>
+<% end %>
 <% end %>
